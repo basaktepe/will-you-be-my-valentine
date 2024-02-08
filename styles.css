@@ -15,9 +15,15 @@ h1 {
   max-width: 15rem;
 }
 
+#yesGif {
+  max-width: 15rem;
+  margin: auto;
+  display: none;
+}
+
 #buttons {
   text-align: center;
-  margin-top: 2rem;
+  margin: 2rem auto;
 }
 
 button {
