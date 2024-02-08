@@ -6,12 +6,16 @@ const maxHight = window.innerHeight - buttonHeight;
 const yesButtonElement = document.getElementById("yes");
 const noButtonElement = document.getElementById("bouncing");
 const titleElement = document.querySelector("h1");
+const firstGifElement = document.getElementById("dudu");
+const yesGifElement = document.getElementById("yesGif");
 
 function yesClicked() {
   titleElement.textContent =
     "Congratulations, you have a beautiful girlfriend like me.";
   yesButtonElement.style.display = "none";
   noButtonElement.style.display = "none";
+  firstGifElement.style.display = "none";
+  yesGifElement.style.display = "block";
 }
 
 function noHovered() {
