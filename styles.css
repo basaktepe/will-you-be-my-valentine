@@ -1,6 +1,8 @@
 body {
   background-color: hsla(332, 90%, 91%, 0.66);
   font-family: "Single Day", sans-serif;
+  margin: auto;
+  text-align: center;
 }
 
 h1 {
@@ -11,12 +13,11 @@ h1 {
 
 #dudu {
   max-width: 15rem;
-  margin: auto;
-  text-align: center;
 }
 
 #buttons {
   text-align: center;
+  margin-top: 2rem;
 }
 
 button {
