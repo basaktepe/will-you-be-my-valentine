@@ -17,6 +17,7 @@ h1 {
 
 #buttons {
   text-align: center;
+  margin-top: 2rem;
 }
 
 button {
