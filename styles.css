@@ -24,6 +24,8 @@ h1 {
 #buttons {
   text-align: center;
   margin: 2rem auto;
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -32,22 +34,26 @@ button {
   height: 50px;
   padding: 5px;
   margin-right: 20px;
-
-  border-radius: 5px;
+  border-radius: 30px;
   color: rgb(61, 60, 60);
 }
 
 #yes {
   background-color: rgb(32, 132, 32);
   border-color: rgb(32, 132, 32);
+  margin-left: -200px;
 }
 
 #bouncing {
   background-color: red;
   border-color: red;
   position: absolute;
+  margin-right: -200px;
 }
 
 .first {
   width: 20%;
+}
+a {
+  text-decoration: none;
 }
