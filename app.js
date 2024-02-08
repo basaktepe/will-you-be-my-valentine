@@ -1,26 +1,46 @@
-const buttonHeight = 50;
-const buttonWidth = 150;
-const maxWidth = window.innerWidth - buttonWidth;
-const maxHight = window.innerHeight - buttonHeight;
+body {
+  background-color: hsla(332, 90%, 91%, 0.66);
+  font-family: "Single Day", sans-serif;
+  margin: auto;
+  text-align: center;
+}
 
-window.addEventListener("DOMContentLoaded", () => {
-  const yesButtonElement = document.getElementById("yes");
-  const noButtonElement = document.getElementById("bouncing");
-  function yesClicked() {
-    titleElement.textContent =
-      "Congratulations, you have a beautiful girlfriend like me.";
-    yesButtonElement.style.display = "none";
-    noButtonElement.style.display = "none";
-  }
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: rgb(88, 150, 198);
+}
 
-  function noHovered() {
-    noButtonElement.style.left =
-      Math.floor(Math.random()) * (maxWidth + 1) + "px";
-    noButtonElement.style.top =
-      Math.floor(Math.random()) * (maxHight + 1) + "px";
-  }
+#dudu {
+  max-width: 15rem;
+}
 
-  const titleElement = document.querySelector("h1");
-  yesButtonElement.addEventListener("click", yesClicked);
-  noButtonElement.addEventListener("mouseover", noHovered);
-});
+#buttons {
+  text-align: center;
+}
+
+button {
+  font-family: inherit;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  margin-right: 20px;
+
+  border-radius: 5px;
+  color: rgb(61, 60, 60);
+}
+
+#yes {
+  background-color: rgb(32, 132, 32);
+  border-color: rgb(32, 132, 32);
+}
+
+#bouncing {
+  background-color: red;
+  border-color: red;
+  position: absolute;
+}
+
+.first {
+  width: 20%;
+}
